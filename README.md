@@ -36,16 +36,4 @@ python train.py
 To test the pretrained model (residual_net.pth), you can:
 - Modify the train.py script to add evaluation logic, or
 - Create a separate script to load the model and test it on sample data.
-4. Visualize Results
-You can use matplotlib to plot training loss, accuracy, or other metrics. For example:
-```bash
-import matplotlib.pyplot as plt
 
-# Example: Plotting loss
-epochs = range(1, len(loss_values) + 1)
-plt.plot(epochs, loss_values, label='Training Loss')
-plt.xlabel('Epochs')
-plt.ylabel('Loss')
-plt.legend()
-plt.show()
-```
