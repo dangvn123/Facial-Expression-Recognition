@@ -1,4 +1,5 @@
-# Face Emotion Recognition
+# Facial Expression Recognition
+
 
 This project focuses on facial emotion recognition using the `fer2013` dataset and a convolutional neural network (CNN) model. The following sections provide details on the setup, running the program, and the required software packages.
 
